@@ -1,0 +1,23 @@
+build/autosar_tp_s1/tpl_primary_irq.S.o: autosar_tp_s1/tpl_primary_irq.S \
+ ../../../trampoline/machines/cortex/tpl_assembler.h \
+ ../../../trampoline/machines/cortex/tpl_asm_definitions.h \
+ ../../../trampoline/machines/cortex/tpl_os_kernel_stack.h \
+ ../../../trampoline/os/tpl_as_memmap.h autosar_tp_s1/tpl_app_define.h \
+ ../../../trampoline/os/tpl_config_def.h \
+ ../../../trampoline/os/tpl_config_check.h autosar_tp_s1/AsMemMap.h
+
+../../../trampoline/machines/cortex/tpl_assembler.h:
+
+../../../trampoline/machines/cortex/tpl_asm_definitions.h:
+
+../../../trampoline/machines/cortex/tpl_os_kernel_stack.h:
+
+../../../trampoline/os/tpl_as_memmap.h:
+
+autosar_tp_s1/tpl_app_define.h:
+
+../../../trampoline/os/tpl_config_def.h:
+
+../../../trampoline/os/tpl_config_check.h:
+
+autosar_tp_s1/AsMemMap.h:

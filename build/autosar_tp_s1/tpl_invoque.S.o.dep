@@ -1,0 +1,20 @@
+build/autosar_tp_s1/tpl_invoque.S.o: autosar_tp_s1/tpl_invoque.S \
+ ../../../trampoline/os/tpl_os_application_def.h \
+ autosar_tp_s1/tpl_app_define.h ../../../trampoline/os/tpl_config_def.h \
+ ../../../trampoline/os/tpl_config_check.h \
+ autosar_tp_s1/tpl_service_ids.h ../../../trampoline/os/tpl_as_memmap.h \
+ autosar_tp_s1/AsMemMap.h
+
+../../../trampoline/os/tpl_os_application_def.h:
+
+autosar_tp_s1/tpl_app_define.h:
+
+../../../trampoline/os/tpl_config_def.h:
+
+../../../trampoline/os/tpl_config_check.h:
+
+autosar_tp_s1/tpl_service_ids.h:
+
+../../../trampoline/os/tpl_as_memmap.h:
+
+autosar_tp_s1/AsMemMap.h:

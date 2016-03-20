@@ -1,0 +1,11 @@
+autosar_tp_s1.oil: \
+ /home/lmg/trampoline/goil/templates/config/config.oil \
+ /home/lmg/trampoline/goil/templates/config/kernel.oil \
+ /home/lmg/trampoline/goil/templates/config/api.oil \
+ /home/lmg/trampoline/goil/templates/config/api_STM.oil \
+ /home/lmg/trampoline/goil/templates/config/cortex/config.oil \
+ /home/lmg/trampoline/goil/templates/config/cortex/armv7/config.oil \
+ /home/lmg/trampoline/goil/templates/config/cortex/armv7/buildOptions.oil \
+ /home/lmg/trampoline/goil/templates/config/cortex/armv7/stm32f407/config.oil \
+ /home/lmg/trampoline/goil/templates/config/cortex/armv7/stm32f407/stm32f4discovery/config.oil \
+ /home/lmg/trampoline/goil/templates/config/config3.1.oil

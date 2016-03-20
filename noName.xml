@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TPN name="/home/lmg/these-lm-givel/code/timing-protection/noName.xml">
+  <place id="1" label="P 1" initialMarking="1" eft="0" lft="inf"> 
+      <graphics color="0"> 
+         <position x="601" y="151"/> 
+         <deltaLabel deltax="10" deltay="10"/> 
+      </graphics> 
+      <scheduling gamma="0" omega="0"/> 
+  </place> 
+
+  <transition id="1" label="T 1"  eft="0" lft="inf" speed="1"  obs="1"  guard=""> 
+     <graphics color="0"> 
+        <position x="601" y="241"/> 
+        <deltaLabel deltax="25" deltay="0"/> 
+        <deltaGuard deltax="20" deltay="-20"/> 
+        <deltaUpdate deltax="20" deltay="10"/> 
+        <deltaSpeed deltax="-20" deltay="5"/> 
+     </graphics> 
+     <update></update> 
+  </transition> 
+
+  <arc place="1" transition="1" type="PlaceTransition" weight="1"> 
+    <nail xnail="0" ynail="0"/> 
+    <graphics  color="3"> 
+     </graphics> 
+  </arc> 
+ 
+
+  <declaration>// insert here your type definitions using C-like syntax
+
+
+// insert here your function definitions 
+// using C-like syntax</declaration>
+
+  <initialization>// insert here the state variables declarations 
+// and possibly some code to initialize them 
+// using C-like syntax</initialization>
+
+  <preferences> 
+      <colorPlace  c0="SkyBlue2"  c1="gray"  c2="cyan"  c3="green"  c4="yellow"  c5="brown" /> 
+ 
+      <colorTransition  c0="yellow"  c1="gray"  c2="cyan"  c3="green"  c4="SkyBlue2"  c5="brown" /> 
+ 
+      <colorArc  c0="black"  c1="gray"  c2="blue"  c3="#beb760"  c4="#be5c7e"  c5="#46be90" /> 
+ 
+  </preferences> 
+ </TPN> 
+

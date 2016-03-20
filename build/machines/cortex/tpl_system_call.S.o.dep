@@ -1,0 +1,26 @@
+build/machines/cortex/tpl_system_call.S.o: \
+ ../../../trampoline/machines/cortex/tpl_system_call.S \
+ ../../../trampoline/machines/cortex/tpl_assembler.h \
+ ../../../trampoline/machines/cortex/tpl_asm_definitions.h \
+ ../../../trampoline/machines/cortex/tpl_os_kernel_stack.h \
+ autosar_tp_s1/tpl_service_ids.h ../../../trampoline/os/tpl_config_def.h \
+ ../../../trampoline/os/tpl_as_memmap.h autosar_tp_s1/tpl_app_define.h \
+ ../../../trampoline/os/tpl_config_check.h autosar_tp_s1/AsMemMap.h
+
+../../../trampoline/machines/cortex/tpl_assembler.h:
+
+../../../trampoline/machines/cortex/tpl_asm_definitions.h:
+
+../../../trampoline/machines/cortex/tpl_os_kernel_stack.h:
+
+autosar_tp_s1/tpl_service_ids.h:
+
+../../../trampoline/os/tpl_config_def.h:
+
+../../../trampoline/os/tpl_as_memmap.h:
+
+autosar_tp_s1/tpl_app_define.h:
+
+../../../trampoline/os/tpl_config_check.h:
+
+autosar_tp_s1/AsMemMap.h:

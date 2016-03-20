@@ -1,0 +1,13 @@
+build/machines/cortex/tpl_ctx_switch.S.o: \
+ ../../../trampoline/machines/cortex/tpl_ctx_switch.S \
+ ../../../trampoline/machines/cortex/tpl_os_kernel_stack.h \
+ autosar_tp_s1/tpl_app_define.h ../../../trampoline/os/tpl_config_def.h \
+ ../../../trampoline/os/tpl_config_check.h
+
+../../../trampoline/machines/cortex/tpl_os_kernel_stack.h:
+
+autosar_tp_s1/tpl_app_define.h:
+
+../../../trampoline/os/tpl_config_def.h:
+
+../../../trampoline/os/tpl_config_check.h:
